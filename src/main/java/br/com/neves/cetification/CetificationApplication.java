@@ -8,6 +8,7 @@ public class CetificationApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CetificationApplication.class, args);
+		System.out.println("opa");
 	}
 
 }
