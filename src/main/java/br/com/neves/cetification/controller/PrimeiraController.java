@@ -12,6 +12,7 @@ public class PrimeiraController {
 	public Usuario getPrimeiraController() {
 		Usuario usuario = new Usuario("Daniel Neves",29);
 		return usuario;
+	
 	}
 	
 	record Usuario(String nome, int idade) {} 
